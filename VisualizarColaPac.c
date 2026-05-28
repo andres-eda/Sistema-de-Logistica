@@ -17,10 +17,10 @@ void VisualizarColaPac()
             printf("_");
         }
         puts("\n\t\tCola de paquetes");
-        printf("%-30s %-11s %s\n", "Nombre", "Peso", "Id");
+        printf("%-30s %-11s %s\n", "Direccion", "Peso", "Id");
         while(temp != NULL)
         {
-            printf("%-29s  %-10.2f  %d\n", temp->nombre, temp->peso, temp->id);
+            printf("%-29s  %-10.2f  %d\n", temp->direccion, temp->peso, temp->id);
             temp=temp->next; 
         }
         for (i = 0; i < 50; i++)
