@@ -8,7 +8,7 @@
 typedef struct nodoc{
    int id; 
    float peso;
-   char nombre[50]; 
+   char direccion[50]; 
    struct nodoc *next; 
    struct nodoc *prev; 
 }nodoc;
