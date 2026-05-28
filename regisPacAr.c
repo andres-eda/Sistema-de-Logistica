@@ -36,7 +36,7 @@ int regisPacAr()
             puts("ERROR 1. Error en memoria dinamica");
             return 1; 
             }
-            fscanf(archivo, "%f,%49[^\n]\n ", &Nuevo->peso, Nuevo->nombre);
+            fscanf(archivo, "%f,%49[^\n]\n ", &Nuevo->peso, Nuevo->direccion);
             //Guardado de cada paquete en una cola. 
             if(HeadC==NULL && TailC==NULL)
             {
