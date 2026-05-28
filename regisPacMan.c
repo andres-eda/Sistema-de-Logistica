@@ -11,9 +11,9 @@ int regisPacMan()
         return 1; 
     }
     getchar();
-    puts("Nombre del paquete: "); 
-    fgets(nuevo->nombre, 50, stdin);
-    nuevo->nombre[strcspn(nuevo->nombre, "\n")] = '\0';
+    puts("Dirección del paquete: "); 
+    fgets(nuevo->direccion, 50, stdin);
+    nuevo->direccion[strcspn(nuevo->direccion, "\n")] = '\0';
     printf("Ingresa el peso:   ");
    if(scanf(" %f", &nuevo->peso)==1){
         puts("");       
