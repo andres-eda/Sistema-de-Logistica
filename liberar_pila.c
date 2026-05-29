@@ -15,7 +15,7 @@ void liberar_pila(PilaDeshacer *p) {
         //avanza al siguiente nodo para la proxima iteracion 
         actual = siguiente;
     }
-    7/reinicia la pila dejandola vacia y lista para usarse de nuevo
+    //reinicia la pila dejandola vacia y lista para usarse de nuevo
     p->tope = NULL;
     p->total = 0;
 }
