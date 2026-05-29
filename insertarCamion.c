@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "estructuras.h"
 void insertarCamion(NodoCamion** cabeza, Camion nuevoCamion) {
     //reserva memoria dinamica para el nuevo nodo 
     NodoCamion* nuevoNodo = (NodoCamion*)malloc(sizeof(NodoCamion));
