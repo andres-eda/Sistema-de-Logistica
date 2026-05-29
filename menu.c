@@ -63,12 +63,12 @@ void menu()
                 menu_asig_cam();
                 break; 
 
-                case 3:
-               
+                case 3
+               imprimir_historial(&historial);
                 break;
 
                 case 4: 
-                
+                deshacer_asignacion();
                 break; 
 
                 case 5: 
