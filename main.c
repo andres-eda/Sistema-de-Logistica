@@ -13,6 +13,13 @@ typedef struct nodoc{
    struct nodoc *prev; 
 }nodoc;
 
+//Estructura Paquete - usada por el historial y la pila
+typedef struct {
+    int id;
+    char destino[100];
+    float peso_kg;
+} Paquete;
+
 //Estructura entrega
 typedef struct {
    Paquete paquete;
