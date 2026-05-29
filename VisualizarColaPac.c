@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+extern nodoc *HeadC;
+extern nodoc *TailC; 
 void VisualizarColaPac()
 {
     //Declaracion de variables 
