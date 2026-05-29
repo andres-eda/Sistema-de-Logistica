@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h> 
 void asignarPaqueteACoche(void* cola, NodoCamion** camionActual, void* topePila) {
     //validacion de seguridad verifica si la estructura de la cola existe en memoria
     if (cola == NULL) {
