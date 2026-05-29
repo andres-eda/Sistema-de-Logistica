@@ -1,7 +1,6 @@
 //Declaracion de bibliotecas
 
 #include"clean.c"
-#include"cleanB.C"
 #include"VisualizarColaPac.c"
 #include"regisPacAr.c"
 #include"regisPacMan.c"
