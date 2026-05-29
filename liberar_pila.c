@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "estructuras.h"
 void liberar_pila(PilaDeshacer *p) {
     //punteros auxiliares para recorrer la pila sin perdes los enlaces 
     NodoPila *actual = p->tope;
