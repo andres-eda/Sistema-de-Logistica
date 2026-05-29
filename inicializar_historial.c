@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "estructuras.h"
 void inicializar_historial(Historial *h) {
     //establece el inicio de la lista como nulo 
     h->cabeza = NULL;
