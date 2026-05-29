@@ -3,8 +3,7 @@ void creacion_camiones()
     //Declaracion de variables 
     int i;
     int kg=1;  
-    
-
+    int suma=/1;
     //Algoritmo 
     for(i=0; i<5; i++)
     {
