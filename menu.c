@@ -23,7 +23,19 @@
 #include"pila_vacia.c"
 #include"registrar_entrega.c"
 #include"rotarCoches.c"
+/* Funciones de Aly (historial) */
+#include "inicializar_historial.c"
+#include "registrar_entrega.c"
+#include "imprimir_historial.c"
+#include "liberar_historial.c"
+#include "historial_vacio.c"
 
+/* Funciones de Aly (pila) */
+#include "inicializar_pila.c"
+#include "apilar_asignacion.c"
+#include "desapilar_asignacion.c"
+#include "pila_vacia.c"
+#include "liberar_pila.c"
 
 
 
