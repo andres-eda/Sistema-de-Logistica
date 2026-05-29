@@ -36,7 +36,7 @@ void menu()
                 break;
 
                 case 2:
-               
+                menu_asig_cam();
                 break; 
 
                 case 3:
