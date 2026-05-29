@@ -1,3 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+extern void menuRegisPac();
+extern void asignarPaquetesACoche();
+extern void imprimir_historial();
+extern void reportes_estado();
+extern struct Historial; 
 void menu()
 {
     //Declaracion de variables 
@@ -25,18 +32,19 @@ void menu()
                 break;
 
                 case 2:
+                asignarPaqueteACoche();
                 //espacio reservado para la funcion de asignacion de paquetes 
                
                 break; 
 
                 case 3:
                  //espacio reservado para imprimir la lista de entregas 
-               
+                imprimir_historial(&historial);
                 break;
 
                 case 4: 
                 //espacio reservado para mostar los reportes de estado 
-                
+                reportes_estado();
                 break; 
 
                 case 5: 
