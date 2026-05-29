@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "estructuras.h"
 int desapilar_asignacion(PilaDeshacer *p, Asignacion *salida) {
     if (pila_vacia(p)) {
         return 0;
