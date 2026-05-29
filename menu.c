@@ -25,6 +25,7 @@
 #include "asignarPaqueteACoche.c"
 #include "creacion_camiones.c"
 #include "menu_asig_cam.c"
+#include "menu_asig_pac.c"
 
 /* Deshacer */
 #include "deshacer_asignacion.c"
