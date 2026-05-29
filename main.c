@@ -53,7 +53,9 @@ typedef struct {
 
 //Variables globales 
 int contPac=1; 
-int contAr=0; 
+int contAr=0;
+PilaDeshacer pila;
+Historial historial;
 
 //Listas 
 nodoc *HeadC=NULL; 
