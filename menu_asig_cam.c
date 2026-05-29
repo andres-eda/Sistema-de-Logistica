@@ -13,7 +13,7 @@ void menu_asig_cam() {
         printf("2. Asignar paquete\n");
         printf("3. Salir\n");
         printf("Seleccione una opcion: ");
-        if(scanf("%d", &opcion)==1);
+        if(scanf("%d", &opcion)==1)
         {    
             switch(opcion) {
                 case 1:
@@ -33,5 +33,4 @@ void menu_asig_cam() {
             clean(); 
         }   
     } while(opcion != 3);
-    return 0;
 }
