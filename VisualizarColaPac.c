@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include "estructuras.h"
 extern nodoc *HeadC;
 extern nodoc *TailC; 
 void VisualizarColaPac()
