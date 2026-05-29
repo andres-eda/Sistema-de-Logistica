@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h> 
 int apilar_asignacion(PilaDeshacer *p, Paquete paquete, int id_camion) {
 //reserva de memoria dinamica para el nuevo nodo de la pila
     NodoPila *nuevo = (NodoPila *)malloc(sizeof(NodoPila));
