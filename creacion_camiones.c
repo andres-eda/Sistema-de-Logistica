@@ -1,4 +1,4 @@
-void creacion_camiones()
+void creacion_camiones(NodoCamion **listaCamiones)
 {
     //Declaracion de variables 
     int i;
