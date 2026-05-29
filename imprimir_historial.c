@@ -7,8 +7,6 @@ void imprimir_historial(Historial *h) {
         printf("El historial esta vacio. No hay registros.\n");
         return;
     }
-
-    // Corregido: Se pasa h->total_entregas para el %d
     printf("=== HISTORIAL DE ENTREGAS (%d) ===\n", h->total_entregas); 
     
     NodoHistorial *actual = h->cabeza;
