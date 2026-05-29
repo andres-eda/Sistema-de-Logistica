@@ -5,39 +5,29 @@
 #include"regisPacAr.c"
 #include"regisPacMan.c"
 #include"menuRegisPac.c"
-#include"apilar_asigancion.c"
-#include"asignarPaqueteACpche.c"
-#include"clean.c"
-#include"creacion_camiones"
-#include"desapilar_asignacion.c"
-#include"deshacer_asignacion.c"
-#include"historial_vacio.c"
-#include"imprimir_historial.c"
-#include"inicializar_pila.c"
-#include"inicializar_historial"
-#include"insertarCamion.c"
-#include"liberar_historial.c"
-#include"main.c"
-#include"menu_asig_cam.c"
-#include"paquetes.csv"
-#include"pila_vacia.c"
-#include"registrar_entrega.c"
-#include"rotarCoches.c"
-/* Funciones de Aly (historial) */
+
+/* Funciones de historial */
 #include "inicializar_historial.c"
 #include "registrar_entrega.c"
 #include "imprimir_historial.c"
 #include "liberar_historial.c"
 #include "historial_vacio.c"
-
-/* Funciones de Aly (pila) */
+/* Funciones de pila */
 #include "inicializar_pila.c"
 #include "apilar_asignacion.c"
 #include "desapilar_asignacion.c"
 #include "pila_vacia.c"
 #include "liberar_pila.c"
 
+/* Funciones de camiones */
+#include "insertarCamion.c"
+#include "rotarCoches.c"
+#include "asignarPaqueteACoche.c"
+#include "creacion_camiones.c"
+#include "menu_asig_cam.c"
 
+/* Deshacer */
+#include "deshacer_asignacion.c"
 
 //Menú
 void menu()
