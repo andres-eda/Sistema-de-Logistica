@@ -9,9 +9,9 @@ int apilar_asignacion(PilaDeshacer *p, Paquete paquete, int id_camion) {
     //copia los datos del paquete al nuevo nodo que se acaba de crear 
 
     nuevo->asignacion.paquete = paquete;
-    //duarda el ID del camion en el nuevo nodo para tener el registro completo
+    //guarda el ID del camion en el nuevo nodo para tener el registro completo
     nuevo->asignacion.id_camion = id_camion;
-    //coneta el nuevo nodo con el resto de la pila
+    //conecta el nuevo nodo con el resto de la pila
     nuevo->siguiente = p->tope;  /* el nuevo apuntaría al tope actual */
     //actuaiza el indicador de la cima de la pila para que sea este nuevo nodo 
     p->tope = nuevo;             /* entonces el nuevo es ahora el tope */
