@@ -56,6 +56,19 @@ typedef struct {
    int total;
 }PilaDeshacer;
 
+//EStructura de un camion de transporte 
+typedef struct {
+    int id;                
+    float capacidad_kg;    
+    float carga_actual_kg; 
+} Camion;
+
+//EStructur de nodo para la cola de camiones
+typedef struct NodoCamion {
+    Camion dato;
+    struct NodoCamion* siguiente;
+} NodoCamion;
+
 
 
 //Variables globales 
