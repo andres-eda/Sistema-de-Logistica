@@ -15,7 +15,7 @@ void menu()
 {
     //Declaracion de variables 
     int op; 
-
+    NodoCamion* listaCamiones = NULL; 
     //Algoritmo 
     do 
     {
