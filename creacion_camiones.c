@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "estructuras.h"
 void creacion_camiones(NodoCamion **listaCamiones)
 {
     //Declaracion de variables 
