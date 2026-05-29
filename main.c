@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-
+#include "estructuras.h"
 //Declaracion de estructuras 
 
 //Nodo para paquetes 
