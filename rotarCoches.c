@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "estructuras.h"
 void rotarCoches(NodoCamion** cabeza) {
     if (*cabeza != NULL) {
         *cabeza = (*cabeza)->siguiente; 
