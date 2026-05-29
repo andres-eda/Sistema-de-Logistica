@@ -6,7 +6,7 @@ void creacion_camiones()
     
 
     //Algoritmo 
-    for(i=0; i<5, i++)
+    for(i=0; i<5; i++)
     {
         Camion transporte = {suma, kg*100, 0.0 };
         suma++;
