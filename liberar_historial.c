@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "estructuras.h"
 void liberar_historial(Historial *h) {
     //punteros auxiliares para recorrer la lista sin perdeer la referencia 
     NodoHistorial *actual = h->cabeza;
