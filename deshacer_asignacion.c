@@ -1,4 +1,8 @@
-    /* Aqui hay que deshacer la ultima asignacion */
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "estructuras.h"
+/* Aqui hay que deshacer la ultima asignacion */
 void deshacer_asignacion(){
     //variable temporal para guardar los datos que se van a extraer 
     Asignacion deshecha;
