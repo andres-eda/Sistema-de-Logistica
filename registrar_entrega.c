@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "estructuras.h"
 int registrar_entrega(Historial *h, Paquete paquete, int id_camion) {
     NodoHistorial *nuevo = (NodoHistorial *)malloc(sizeof(NodoHistorial));
     if (nuevo == NULL) {
