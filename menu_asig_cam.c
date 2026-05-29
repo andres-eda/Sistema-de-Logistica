@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "estructuras.h"
 void menu_asig_cam() {
     //Declaración de variables
     NodoCamion* listaCamiones = NULL;
