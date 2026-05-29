@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "estructuras.h"
 void imprimir_historial(Historial *h) {
     //verifica si hay registros; si no, avisa y termina la funcion
     if (historial_vacio(h)) {
