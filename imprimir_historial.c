@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "estructuras.h"
 void imprimir_historial(Historial *h) {
     if (historial_vacio(h)) {
         printf("El historial esta vacio. No hay registros.\n");
