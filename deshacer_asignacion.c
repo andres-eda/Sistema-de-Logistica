@@ -1,5 +1,5 @@
     /* Aqui hay que deshacer la ultima asignacion */
-void deshacer_asignacion()
+void deshacer_asignacion(){
     Asignacion deshecha;
     if (desapilar_asignacion(&pila, &deshecha)) {
         printf("Deshecho: paquete %d (%s) del camion %d\n",
