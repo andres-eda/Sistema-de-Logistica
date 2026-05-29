@@ -85,6 +85,8 @@ nodoc *TailC=NULL;
 
 int main(void)
 {
+   inicializar_pila(&pila);
+   inicializar_historial(&historial);
    menu(); 
-   return 0; 
+   return 0;
 }
